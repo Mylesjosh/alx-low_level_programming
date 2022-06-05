@@ -8,6 +8,7 @@
 int main(void)
 {
 	int ch;
+	int e, q;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
