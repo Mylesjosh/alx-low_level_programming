@@ -18,8 +18,7 @@ int main(void)
 		putchar(num1);
 		putchar(num2);
 		putchar(num3);
-		if (num1 = '7' && num2 = '8' 
-&& num3 = '9')
+		if (num1 == '7' && num2 == '8' && num3 == '9')
 		{
 		continue;
 		}
