@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	putchar('_');
+	putchar(('_' % 10) + '0');
 	putchar('p');
 	putchar('u');
 	putchar('t');
@@ -15,10 +15,6 @@ int main(void)
 	putchar('h');
 	putchar('a');
 	putchar('r');
-
-	int h = "_putchar";
-	putchar((h % 10) + '0');
-
 
 	return (0);
 
