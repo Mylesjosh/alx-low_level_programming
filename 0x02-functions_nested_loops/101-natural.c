@@ -1,16 +1,24 @@
 #include <studio.h>
 
 /**
- * -natural.c - prints multiples of numbers 
- *  Return: 0
+ * main - main block
+ * Return:0
  */
 
-101-natural.c
+int main(void)
+
 {
 	int total, n;
 
 	for (n = 0; n < 1024; n++)
 	{
-		if (
+	if ((i % 3) == 0 || (i % 5) == 0)
+	{
+		total += i;
+	}
+	printf("%d/n", total);
+	return: (0);
+	}
 
+}
 
