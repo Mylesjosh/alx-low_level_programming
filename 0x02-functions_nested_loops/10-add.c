@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add.c -> adds two integers and returns res
+ * add -> adds two integers and returns res
  * ult
  * @x: integer x
  * @y: integer y
