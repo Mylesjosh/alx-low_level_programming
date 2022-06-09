@@ -5,7 +5,6 @@
  * Return:0
  */
 
-
 int main(void)
 {
 	int count;
@@ -22,8 +21,13 @@ int main(void)
 	if (count == 49)
 	{
 		printf("\n");
+	}
+
+	else
+	{
 		printf(", ");
 	}
+
 	}
 	return (0);
 }
