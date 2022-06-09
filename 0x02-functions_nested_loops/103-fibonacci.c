@@ -8,7 +8,8 @@
 int main(void)
 {
 	unsigned long fib1 = 0, fib2 = 1, fibsum;
-	while (1);
+
+	while (1)
 	{
 
 	float total_sum;
@@ -27,7 +28,7 @@ int main(void)
 	fib1 = fib2;
 	fib2 = fibsum;
 	}
-	printf("%.0f\n", tot_sum);
+	printf("%.0f\n", total_sum);
 	return (0);
 }
 
