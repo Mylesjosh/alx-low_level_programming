@@ -6,6 +6,7 @@
  */
 
 int main(void)
+
 {
 	int total, n;
 
@@ -13,11 +14,11 @@ int main(void)
 	{
 	if ((n % 3) == 0 || (n % 5) == 0)
 	{
-		total += i;
+		total += n;
 	}
-	printf("%d/n", total);
+	printf("%d/n", total)
+	}
 	return (0);
-	}
 
 }
 
