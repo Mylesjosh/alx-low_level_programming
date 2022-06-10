@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - checks for uppercase alphabets
+ * _isupper - checks for uppercase alphabets
  * @c: the integer to be checked
  * Return: 1 or 0 depending on conditions
  */
