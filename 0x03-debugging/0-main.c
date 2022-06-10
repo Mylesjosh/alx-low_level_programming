@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include "main.h"
 
 void positive_or_negative(int i)
 {
@@ -9,6 +8,8 @@ void positive_or_negative(int i)
 
 	srand(time(0));
 	n = i;
+
+
 	if (n > 0)
 	{
 	printf("%d is positive\n", n);
@@ -25,7 +26,7 @@ void positive_or_negative(int i)
 }
 
 /**
- * main - tests function that prints if integer is positive or negative
+ * main - tests function that prints if integ * er is positive or negative
  * Return: 0
  */
 
