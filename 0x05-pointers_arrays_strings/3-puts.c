@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _put - a function that puts
+ * _puts - a function that puts
  * @str: string parameter
  */
 
@@ -11,6 +11,6 @@ void _puts(char *str)
 	{
 		_putchar(*str);
 	}
-	_putchar(\n);
+	_putchar('\n');
 }
 
