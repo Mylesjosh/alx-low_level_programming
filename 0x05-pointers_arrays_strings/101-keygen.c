@@ -9,16 +9,15 @@
 
 int main(void)
 {
-	int paswd, sum;
+	int pass, sum;
 
 	srand(time(NULL));
 	sum = 0;
-
 	while (sum <= 2645)
 	{
-		paswd = (rand() % 128);
-		sum += paswd;
-		printf("%c", paswd);
+		pass = (rand() % 128);
+		sum += pass;
+		printf("%c", pass);
 	}
 	printf("%c", 2772 - sum);
 
