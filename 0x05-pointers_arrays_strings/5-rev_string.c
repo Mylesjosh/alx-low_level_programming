@@ -17,5 +17,5 @@ void rev_string(char *s)
 	{
 		word = s[n];
 	}
-	return (word);
+
 }
