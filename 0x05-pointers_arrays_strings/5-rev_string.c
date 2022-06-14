@@ -24,7 +24,7 @@ void rev_string(char *s)
 		word = s[i];
 		s[i] = s[length2];
 		s[length2] = word;
-		length -= 1;
+		length2 -= 1;
 	}
 
 }
