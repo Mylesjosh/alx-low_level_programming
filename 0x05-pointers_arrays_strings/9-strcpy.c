@@ -5,18 +5,18 @@
  * _strcpy - copy string from src to dest
  * @dest: pointing to destination
  * @src: pointing to source
- * return: void
+ * Return: void
  */
 
 char *_strcpy(char *dest, char *src)
 {
 	char *point = dest;
 
-	*dest = 0;
+
 	while (*src)
 	{
 		*dest++ = *src++;
 	}
-
+	*dest = 0;
 	return (point);
 }
