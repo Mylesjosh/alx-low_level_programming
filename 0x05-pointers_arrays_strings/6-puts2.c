@@ -3,7 +3,7 @@
 
 /**
  * puts2 - function puts
- * @str - puts string
+ * @str: puts string
  */
 
 void puts2(char *str)
@@ -12,7 +12,7 @@ void puts2(char *str)
 
 	len = strlen(str);
 
-	for (i = 0; i < len; i++)
+	for (i = 0; i < len; i+=2)
 	{
 		_putchar(str[i]);
 	}
