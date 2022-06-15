@@ -1,25 +1,23 @@
 #include "main.h"
 /**
  * string_toupper - changes all lowercase to uppercase
- * @' ': param returning char
+ * @y: param string
  * Return: string
  */
 
 
-char *string_toupper(char *)
+char *string_toupper(char *y)
 {
 	int index = 0;
 
-	char = str;
-
-	while (str[index])
+	while (y[index])
 	{
-		if (str[index] >= 'a' && str[index] <= 'z')
+		if (y[index] >= 'a' && y[index] <= 'z')
 		{
-			str[index] -= 32;
+			y[index] -= 32;
 		}
 		index++;
 	}
-	return (str);
+	return (y);
 }
 
