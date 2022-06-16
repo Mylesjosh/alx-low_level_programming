@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- *
+ * leet - function that encodes a string into 1337.
+ * @x: string param
+ * Return: x
  */
 
 char *leet(char *x)
@@ -14,7 +16,7 @@ char *leet(char *x)
 	{
 		b = 0;
 
-		while (b < l)
+		while (b < len)
 		{
 			if (x[a] == tr[b] || x[a] - 32 == tr[b])
 			{
