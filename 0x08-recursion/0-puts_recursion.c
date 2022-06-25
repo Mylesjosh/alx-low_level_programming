@@ -7,7 +7,7 @@
 
 void _puts_recursion(char *s)
 {
-	int a, i = 0;
+	int a = 0, i = 0;
 
 	if (s[a])
 	{
