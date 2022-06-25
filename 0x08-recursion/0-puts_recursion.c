@@ -7,13 +7,16 @@
 
 void _puts_recursion(char *s)
 {
-	int a, i;
+	int a, i = 0;
 
-	while (s[a])
+	if (s[a])
+	{
 		a++;
+	}
 
-	for (i = 0; s[i] <= s[a]; i++)
+	if (s[i] <= s[a])
 	{
 		_putchar(s[i]);
+		i++;
 	}
 }
