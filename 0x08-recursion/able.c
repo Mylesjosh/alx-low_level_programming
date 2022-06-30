@@ -12,7 +12,6 @@ int is_prime_number(int n)
 {
 	return (check_prime(n, 1));
 }
-
 /**
  * check_prime - checks for prime number
  * @n: number
