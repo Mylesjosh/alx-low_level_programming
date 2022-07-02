@@ -1,13 +1,11 @@
 #include "main.h"
 
 int check_prime(int, int);
-
 /**
  * is_prime_number - computes the square root of a number
  * @n: the integer number
  * Return: prime
  */
-
 int is_prime_number(int n)
 {
 	return (check_prime(n, 1));
@@ -19,14 +17,13 @@ int is_prime_number(int n)
  * @i: iterator
  * Return: a 1 or 0
  */
-
 int check_prime(int n, int i)
 {
 	if (n <= 1)
 	{
 		return (0);
 	}
-	if (n % 1 == 0 && i > 1)
+	if (n % i == 0 && i > 1)
 	{
 		return (0);
 	}
