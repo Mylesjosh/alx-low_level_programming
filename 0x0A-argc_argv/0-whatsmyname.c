@@ -4,11 +4,14 @@
  * main - main block
  * @argc: argument count
  * @argv: argument vector
+ * Return:0
  */
 
 int main(int argc, char *argv[])
 {
-	return (argv[0]);
+	printf("%s"argv[0]);
 
-	void(argc);
+	ignore(argc);
+
+	return (0);
 }
