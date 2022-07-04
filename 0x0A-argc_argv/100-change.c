@@ -8,9 +8,9 @@
  */
 int main(int argc, char *argv[])
 {
-	int num, i, coins, change = 0;
+	int num, i, result = 0;
 
-	coins[] = {25, 10, 5, 2, 1};
+	int coins[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
 	{
@@ -19,20 +19,20 @@ int main(int argc, char *argv[])
 	}
 
 	num = atoi(argv[1]);
-	if (argc < 0)
+	if (num < 0)
 	{
 		printf("0\n");
 		return (0);
 	}
 
-	for (i = 0; i < 5; i++)
+	for (i = 0; i < 5 && num >= 0; i++)
 	{
 		while (num >= coins[i])
 		{
 			num -= coins[i];
-			change++;
+			result++;
 		}
 	}
-	printf("%d\n", change);
+	printf("%d\n", result);
 	return (0);
 }
