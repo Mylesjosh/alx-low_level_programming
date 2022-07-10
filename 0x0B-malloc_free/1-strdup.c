@@ -10,10 +10,10 @@
 char *_strdup(char *str)
 {
 	char *strout;
-	unsigned int i = 0, k;
+	unsigned int i, k;
 
-	while (str[i] != '\0')
-		i++;
+	for (i = 0; str[i] != '\0'; i++)
+		;
 
 	strout = (char *)malloc(sizeof(char) * (i + 1));
 
