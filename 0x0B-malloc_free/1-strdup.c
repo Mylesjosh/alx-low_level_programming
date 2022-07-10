@@ -12,7 +12,7 @@ char *_strdup(char *str)
 	char *strout;
 	unsigned int i = 0, k;
 
-	while (str != '\0')
+	while (str[i] != '\0')
 		i++;
 
 	strout = (char *)malloc(sizeof(char) * (i + 1));
