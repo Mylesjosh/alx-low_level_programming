@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -24,15 +23,14 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	if (*head == NULL)
 	{
 		*head = new_h;
-		return (new_h);
 	}
 	else
 	{
 		lastnode = *head;
-		while (lastnode->next)
+		while (lastnode->next != NULL)
 			lastnode = lastnode->next;
 		lastnode->next = new_h;
 	}
-	return (new_h);
+	return (*head);
 }
 
